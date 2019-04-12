@@ -13,4 +13,4 @@
 * Plan Daily (or more often)
   * Whiteboard the output
 * Be specific
-  * No generalizations, "them, they, others"
+  * Ownership and accountability over generalizations
