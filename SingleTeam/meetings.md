@@ -7,3 +7,4 @@
   * if person is needed, go (physically) talk to that person
   
 * In person 1:1 over everything else
+* Law of two feet (if you're not getting value out of it, leave, go do something valuable!)
