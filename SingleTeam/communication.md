@@ -1,9 +1,9 @@
 # Communicate Openly
 * Invite Others to the Discussion
- * Work closely with partners
- * Work closely with dependent teams
- * Add them to the mob whenever possible
- * Promote collaboration over contracts
+  * Work closely with partners
+  * Work closely with dependent teams
+  * Add them to the mob whenever possible
+  * Promote collaboration over contracts
 
 * Speak up
   * Ask for help early
