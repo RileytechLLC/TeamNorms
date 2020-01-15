@@ -14,3 +14,5 @@
   * Whiteboard the output
 * Be specific
   * Ownership and accountability over generalizations
+* No Dark Work
+  * work that happens behind the scenes, bring it to the light
