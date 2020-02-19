@@ -83,6 +83,7 @@ and so on will all bring up details on those given commands.  Also google is you
 
 `git checkout <BranchName>` I want to switch branches
 
+
 ### More complex stuff
 
 I have changes and want to put them on the remote branch
@@ -92,7 +93,7 @@ I have changes and want to put them on the remote branch
 `git gui`
 
 
-“I have a small change and don’t need a gui”
+#### I have a small change and don’t need a gui
 
 `git status`
 
@@ -102,7 +103,7 @@ I have changes and want to put them on the remote branch
 
 `git push origin master`
 
-“my branch is done and I’m ready to merge it”
+#### my branch is done and I’m ready to merge it
 <starting from your branch>
 
 `git pull`
@@ -118,7 +119,7 @@ I have changes and want to put them on the remote branch
 
 `git push origin master`
 
-“I want to get the latest stuff, but I have changes too”
+#### I want to get the latest stuff, but I have changes too
 
 commit all your changes locally, if you have leftovers that’s fine
 
@@ -130,26 +131,28 @@ commit all your changes locally, if you have leftovers that’s fine
 
 `git push origin <BranchName>`
 
-“My merge has went all screwy and I want to start over”
+#### My merge has went all screwy and I want to start over
 
 `git merge --abort`
 
-“I have changes leftover but don’t need them after I’ve committed”
+#### I have changes leftover but don’t need them after I’ve committed
 
 `git checkout .`
 
 `git clean -df`
 
-“I want to make a branch” (you can do this with commits pending btw)
+#### I want to make a branch
+(you can do this with commits pending btw)
 
 `git checkout -b <BranchName>`
+
 `git push origin <BranchName>`
 
-“I have a change I want to keep for a while but not commit it”
+#### I have a change I want to keep for a while but not commit it
 
 `git stash`
 
-<do stuff, damn you John, commit>
+<do stuff, do stuff, damn you John, commit>
 
 `git stash pop`
 
