@@ -88,48 +88,44 @@ and so on will all bring up details on those given commands.  Also google is you
 
 I have changes and want to put them on the remote branch
 
-`git status`
-
-`git gui`
+```bash
+git status
+git gui
+```
 
 
 #### I have a small change and don’t need a gui
 
-`git status`
-
-`git add .`
-
-`git commit -m “<message>”`
-
-`git push origin master`
+```bash
+git status
+git add .
+git commit -m “<message>”
+git push origin master
+```
 
 #### my branch is done and I’m ready to merge it
 <starting from your branch>
 
-`git pull`
-
-`git rebase origin/master`
-
-`git mergetool`
-<fix conflicts if any, install a diff tool if you have to>
-
-`git checkout master`
-
-`git merge <branchname> --no-ff` (this is my personal preference, I like this pattern)
-
-`git push origin master`
+```bash
+git pull
+git rebase origin/master
+git mergetool #if conflicts
+#fix conflicts if any, install a diff tool if you have to
+git checkout master
+git merge <branchname> --no-ff #this is my personal preference, I like this pattern
+git push origin master
+```
 
 #### I want to get the latest stuff, but I have changes too
 
 commit all your changes locally, if you have leftovers that’s fine
 
-`git checkout .` (reset tracked files)
-
-`git clean -df` (clear untracked files)
-
-`git pull --rebase`
-
-`git push origin <BranchName>`
+```bash
+git checkout . #reset tracked files
+git clean -df #clear untracked files
+git pull --rebase
+git push origin $branch
+```
 
 #### My merge has went all screwy and I want to start over
 
@@ -137,9 +133,10 @@ commit all your changes locally, if you have leftovers that’s fine
 
 #### I have changes leftover but don’t need them after I’ve committed
 
-`git checkout .`
-
-`git clean -df`
+```bash
+git checkout .
+git clean -df
+```
 
 #### I want to make a branch
 (you can do this with commits pending btw)
